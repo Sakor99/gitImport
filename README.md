@@ -24,7 +24,7 @@ To install ckanext-gitimport:
 
 2. Clone the source and install it on the virtualenv
 
-    git clone https://github.com/Mazen-B/ckanext-gitimport.git
+    git clone https://github.com/Sakor99/gitImport
     cd ckanext-gitimport
     pip install -e .
 	pip install -r requirements.txt
@@ -44,7 +44,7 @@ Add your GitHub access token to the CKAN config file:
 
     ckanext.gitimport.github_access_token = YOUR_GITHUB_ACCESS_TOKEN
 
-## Usage
+## How it works?
 To use the plugin:
 
 1. In your CKAN instance, access the "GitHub Import" button in navigation bar.
