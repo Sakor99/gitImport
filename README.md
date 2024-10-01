@@ -29,7 +29,7 @@ To install ckanext-gitimport:
     pip install -e .
 	pip install -r requirements.txt
 
-3. Add `gitImport` to the `ckan.plugins` setting in your CKAN
+3. Add `gitImport` to the `ckan/Plugins` setting in your CKAN
    config file (by default the config file is located at
    `/etc/ckan/default/ckan.ini`).
 
@@ -40,7 +40,7 @@ To install ckanext-gitimport:
 ## Config settings
 The plugin requires a GitHub access token to fetch repository data. Please ensure that the token is valid as they usually expire after a certain time. You will need to regenerate a new token periodically to maintain functionality.
 
-Add your GitHub access token to the CKAN config file:
+Add your GitHub access token to the CKAN config file(ckan-entrypoint.sh):
 
     ckanext.gitimport.github_access_token = YOUR_GITHUB_ACCESS_TOKEN
 
