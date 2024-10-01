@@ -74,7 +74,7 @@ write_config () {
 	"tibimport.show_vdatasets_virtual_source_ribbon = true" \
     "tibimport.updatedatasets_enabled = false" \
 	"tibimport.updatedatasets_crontab_user = root" \
-  "ckanext.gitimport.github_access_token = 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"
+  "ckanext.gitimport.github_access_token = ACCESS_TOKEN"
 	
   echo "CONFIG tibimport vars DONE"
 
